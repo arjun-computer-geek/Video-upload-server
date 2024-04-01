@@ -1,0 +1,15 @@
+{
+  "name": "Video-upload-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/arjun-computer-geek/Video-upload-server.git",
+  "author": "Arjun kumar <arjun2000raj@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "concurrently \"cd frontend && yarn dev\" \" cd backend && nodemon index.js\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.0"
+  }
+}
